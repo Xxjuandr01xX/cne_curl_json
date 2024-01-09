@@ -78,7 +78,7 @@
 				"centro"    => $this->limpiar_cv($centro),
 				"direccion" => $this->limpiar_cv($direccion)
 			);
-			echo json_encode($arr_data_cne);
+			return json_encode($arr_data_cne);
 		}
 	}
 ?>
